@@ -1,0 +1,6 @@
+@Fase4_Cap7_WebserviceASP.NET_HostAddress = http://localhost:5079
+
+GET {{Fase4_Cap7_WebserviceASP.NET_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
