@@ -1,0 +1,5 @@
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Tests\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.Tests.csproj.AssemblyReference.cache
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Tests\obj\Debug\net9.0\MvcTestingAppManifest.json
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Tests\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Tests\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Tests\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.Tests.sourcelink.json

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fase4Cap7WebserviceASPNET</name>
+    </assembly>
+    <members>
+        <member name="M:Fase4Cap7WebserviceASPNET.Controllers.OcorrenciasController.Post(Fase4Cap7WebserviceASPNET.ViewModels.OcorrenciaViewModel)">
+            <summary>
+            Cadastra uma nova ocorrência ambiental.
+            </summary>
+        </member>
+        <member name="M:Fase4Cap7WebserviceASPNET.Controllers.OcorrenciasController.GetById(System.Int32)">
+            <summary>
+            Retorna uma ocorrência pelo ID.
+            </summary>
+        </member>
+        <member name="M:Fase4Cap7WebserviceASPNET.Controllers.OcorrenciasController.Get(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.Int32},System.Int32,System.Int32)">
+            <summary>
+            Lista todas as ocorrências com filtros opcionais e paginação.
+            </summary>
+        </member>
+        <member name="M:Fase4Cap7WebserviceASPNET.Controllers.OcorrenciasController.AtualizarStatus(System.Int32,System.String)">
+            <summary>
+            Atualiza o status de uma ocorrência.
+            </summary>
+        </member>
+        <member name="M:Fase4Cap7WebserviceASPNET.Controllers.OcorrenciasController.Delete(System.Int32)">
+            <summary>
+            Exclui uma ocorrência pelo ID.
+            </summary>
+        </member>
+    </members>
+</doc>

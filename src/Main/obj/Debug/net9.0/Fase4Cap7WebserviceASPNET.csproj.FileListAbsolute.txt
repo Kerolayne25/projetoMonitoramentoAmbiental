@@ -1,0 +1,10 @@
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Main\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.csproj.AssemblyReference.cache
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Main\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Main\obj\Debug\net9.0\MvcTestingAppManifest.json
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Main\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Main\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.AssemblyInfoInputs.cache
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Main\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.AssemblyInfo.cs
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Main\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.csproj.CoreCompileInputs.cache
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Main\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Main\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kerolayne\Desktop\AtividadesJava_Fiap\3_Semestre-Startup_One\Fase4Cap7WebserviceASPNET\src\Main\obj\Debug\net9.0\Fase4Cap7WebserviceASPNET.sourcelink.json
