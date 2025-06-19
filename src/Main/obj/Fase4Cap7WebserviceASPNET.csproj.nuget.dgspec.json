@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kerolayne\\Desktop\\AtividadesJava_Fiap\\3_Semestre-Startup_One\\Fase4Cap7WebserviceASPNET\\src\\Main\\Fase4Cap7WebserviceASPNET.csproj": {}
+    "C:\\Users\\Kerolayne\\OneDrive\\Área de Trabalho\\AtividadesJava_Fiap\\3_Semestre-Startup_One\\Fase4Cap7WebserviceASPNET\\src\\Main\\Fase4Cap7WebserviceASPNET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kerolayne\\Desktop\\AtividadesJava_Fiap\\3_Semestre-Startup_One\\Fase4Cap7WebserviceASPNET\\src\\Main\\Fase4Cap7WebserviceASPNET.csproj": {
+    "C:\\Users\\Kerolayne\\OneDrive\\Área de Trabalho\\AtividadesJava_Fiap\\3_Semestre-Startup_One\\Fase4Cap7WebserviceASPNET\\src\\Main\\Fase4Cap7WebserviceASPNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kerolayne\\Desktop\\AtividadesJava_Fiap\\3_Semestre-Startup_One\\Fase4Cap7WebserviceASPNET\\src\\Main\\Fase4Cap7WebserviceASPNET.csproj",
+        "projectUniqueName": "C:\\Users\\Kerolayne\\OneDrive\\Área de Trabalho\\AtividadesJava_Fiap\\3_Semestre-Startup_One\\Fase4Cap7WebserviceASPNET\\src\\Main\\Fase4Cap7WebserviceASPNET.csproj",
         "projectName": "Fase4Cap7WebserviceASPNET",
-        "projectPath": "C:\\Users\\Kerolayne\\Desktop\\AtividadesJava_Fiap\\3_Semestre-Startup_One\\Fase4Cap7WebserviceASPNET\\src\\Main\\Fase4Cap7WebserviceASPNET.csproj",
+        "projectPath": "C:\\Users\\Kerolayne\\OneDrive\\Área de Trabalho\\AtividadesJava_Fiap\\3_Semestre-Startup_One\\Fase4Cap7WebserviceASPNET\\src\\Main\\Fase4Cap7WebserviceASPNET.csproj",
         "packagesPath": "C:\\Users\\Kerolayne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kerolayne\\Desktop\\AtividadesJava_Fiap\\3_Semestre-Startup_One\\Fase4Cap7WebserviceASPNET\\src\\Main\\obj\\",
+        "outputPath": "C:\\Users\\Kerolayne\\OneDrive\\Área de Trabalho\\AtividadesJava_Fiap\\3_Semestre-Startup_One\\Fase4Cap7WebserviceASPNET\\src\\Main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kerolayne\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,20 +57,12 @@
               "version": "[9.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.6, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.14.1, )"
             },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
@@ -79,16 +71,6 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[9.0.1, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.9.3, )"
-            },
-            "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.1, )"
             }
           },
           "imports": [

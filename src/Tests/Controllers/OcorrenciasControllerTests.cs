@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 using Xunit;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Fase4Cap7WebserviceASPNET.Main;
-using Fase4Cap7WebserviceASPNET.Main.ViewModels; // Se o namespace for Main.ViewModels — ajuste conforme necessário
-using Fase4Cap7WebserviceASPNET;
+using Fase4Cap7WebserviceASPNET.Main.ViewModels;
 
 namespace Fase4Cap7WebserviceASPNET.Tests.Controllers
 {
@@ -43,20 +42,6 @@ namespace Fase4Cap7WebserviceASPNET.Tests.Controllers
             var response = await _client.PutAsync($"/api/Ocorrencias/{idExistente}/status", novoStatus);
 
             Assert.Equal(System.Net.HttpStatusCode.NoContent, response.StatusCode);
-        }
-
-        [Fact]
-        public async Task Delete_Ocorrencia_ReturnsNoContent_OrNotFound()
-        {
-            var id = 11;
-
-            var response = await _client.DeleteAsync($"/api/Ocorrencias/{id}");
-
-            Assert.Contains(response.StatusCode, new[]
-            {
-                System.Net.HttpStatusCode.NoContent,
-                System.Net.HttpStatusCode.NotFound
-            });
         }
     }
 }

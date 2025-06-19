@@ -23,9 +23,9 @@ namespace Fase4Cap7WebserviceASPNET.Main.Models
         public string Status { get; set; } = "PENDENTE";
 
         [Column("TIPO_IMPACTO_ID")]
+
         public int TipoImpactoId { get; set; }
 
-        // ✅ Propriedade de navegação para Include funcionar
         public TipoImpacto? TipoImpacto { get; set; }
     }
 }

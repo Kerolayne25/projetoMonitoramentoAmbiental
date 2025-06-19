@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Main\Fase4Cap7WebserviceASPNET.csproj" />
+    <ProjectReference Include="..\Main\Fase4Cap7WebserviceASPNET.csproj" />
   </ItemGroup>
 
 </Project>

@@ -17,9 +17,6 @@ namespace Fase4Cap7WebserviceASPNET.Main.Controller
             _context = context;
         }
 
-        /// <summary>
-        /// Cadastra uma nova ocorrência ambiental.
-        /// </summary>
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] OcorrenciaViewModel model)
         {
@@ -41,9 +38,6 @@ namespace Fase4Cap7WebserviceASPNET.Main.Controller
             return CreatedAtAction(nameof(GetById), new { id = ocorrencia.Id }, ocorrencia);
         }
 
-        /// <summary>
-        /// Retorna uma ocorrência pelo ID.
-        /// </summary>
         [HttpGet("{id}")]
         public async Task<ActionResult<OcorrenciaResponseViewModel>> GetById(int id)
         {
@@ -68,9 +62,6 @@ namespace Fase4Cap7WebserviceASPNET.Main.Controller
             return Ok(viewModel);
         }
 
-        /// <summary>
-        /// Lista todas as ocorrências com filtros opcionais e paginação.
-        /// </summary>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<OcorrenciaResponseViewModel>>> Get(
             [FromQuery] string? status,
@@ -115,9 +106,6 @@ namespace Fase4Cap7WebserviceASPNET.Main.Controller
             return Ok(resultados);
         }
 
-        /// <summary>
-        /// Atualiza o status de uma ocorrência.
-        /// </summary>
         [HttpPut("{id}/status")]
         public async Task<IActionResult> AtualizarStatus(int id, [FromBody] string novoStatus)
         {
@@ -126,22 +114,6 @@ namespace Fase4Cap7WebserviceASPNET.Main.Controller
                 return NotFound();
 
             ocorrencia.Status = novoStatus.ToUpper();
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        /// <summary>
-        /// Exclui uma ocorrência pelo ID.
-        /// </summary>
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var ocorrencia = await _context.Ocorrencias.FindAsync(id);
-            if (ocorrencia == null)
-                return NotFound();
-
-            _context.Ocorrencias.Remove(ocorrencia);
             await _context.SaveChangesAsync();
 
             return NoContent();

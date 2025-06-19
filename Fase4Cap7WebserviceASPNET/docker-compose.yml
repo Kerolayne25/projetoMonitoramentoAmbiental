@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  oracle-db:
+    image: container-registry.oracle.com/database/xe:21.3.0
+    container_name: oracle-xe
+    ports:
+      - "1521:1521"
+      - "5500:5500"
+    environment:
+      - ORACLE_PWD=MyOraclePwd123
+      - ORACLE_CHARACTERSET=AL32UTF8
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+    healthcheck:
+      test: ["CMD", "ls", "/opt/oracle/oradata"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ocorrencias-api
+    ports:
+      - "8080:8080"
+    depends_on:
+      - oracle-db
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__OracleDb=User Id=system;Password=MyOraclePwd123;Data Source=oracle-db:1521/XEPDB1
+    networks:
+      - backend
+
+volumes:
+  oracle-data:
+
+networks:
+  backend:
